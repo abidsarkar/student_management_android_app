@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pohela boisakh"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/eventnamemm"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/Base.CardView">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="14-4-2023"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/eventdatemm"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/Base.CardView">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="off"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/radmm"
+        android:layout_marginTop="5dp"
+        android:textAppearance="@style/Base.CardView">
+
+    </TextView>
+
+
+
+
+</LinearLayout>
