@@ -94,13 +94,14 @@ public class Login_page extends AppCompatActivity {
                 builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        String phoneNumber = "0171234567";
+                        String phoneNumber = "017xxxxx";
                         Intent dialIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:" + phoneNumber));
                         startActivity(dialIntent);
                     }
                 });
                 builder.setNegativeButton("No", null);
                 builder.show();
+
             }
         });
 
